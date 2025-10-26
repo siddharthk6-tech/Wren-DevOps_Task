@@ -53,7 +53,7 @@ resource "aws_instance" "web_server" {
               apt install -y apache2 unzip curl
 
               # Start Apache
-              echo "<h1>Welcome to Wren Kitchens Cloud Demo</h1>" > /var/www/html/index.html
+              echo "<h1>Welcome to Wren Kitchens and Bedrooms</h1>" > /var/www/html/index.html
               systemctl enable apache2
               systemctl start apache2
 
