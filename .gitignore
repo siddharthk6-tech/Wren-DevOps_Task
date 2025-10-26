@@ -1,0 +1,17 @@
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# Ansible
+*.retry
+
+# OS / editor junk
+.DS_Store
+*.swp
+
+# Zip or archives
+*.zip
+
