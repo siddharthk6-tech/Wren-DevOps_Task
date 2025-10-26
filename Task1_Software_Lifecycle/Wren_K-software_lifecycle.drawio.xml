@@ -1,4 +1,4 @@
-<mxGraphModel dx="2571" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxGraphModel dx="2280" dy="1901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
   <root>
     <mxCell id="0" />
     <mxCell id="1" parent="0" />
@@ -218,6 +218,45 @@
         <mxPoint x="770" y="440" as="sourcePoint" />
         <mxPoint x="520" y="580" as="targetPoint" />
       </mxGeometry>
+    </mxCell>
+    <mxCell id="IzqPxtT47RHliLdJ4qgM-52" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Monitoring&lt;/font&gt;&lt;/b&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=north;fillColor=#a20025;strokeColor=#6F0000;rounded=1;shadow=1;fontColor=#ffffff;" vertex="1" parent="1">
+      <mxGeometry x="-240" y="275" width="80" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="IzqPxtT47RHliLdJ4qgM-53" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="-330" y="354.33" as="sourcePoint" />
+        <mxPoint x="-240" y="354.33" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="IzqPxtT47RHliLdJ4qgM-54" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Prometheus&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Grafana&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Datadog&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;AWS Cloudwatch&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#f010f4, #572b2b);strokeColor=#36393d;shadow=1;" vertex="1" parent="1">
+      <mxGeometry x="-470" y="310" width="140" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="IzqPxtT47RHliLdJ4qgM-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="-201" y="670" as="sourcePoint" />
+        <mxPoint x="-200.67" y="430" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="IzqPxtT47RHliLdJ4qgM-57" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="-200" y="670" as="sourcePoint" />
+        <mxPoint x="-140" y="670" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="IzqPxtT47RHliLdJ4qgM-58" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="-200" y="270" as="sourcePoint" />
+        <mxPoint x="-200" y="160" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="IzqPxtT47RHliLdJ4qgM-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="-200" y="160" as="sourcePoint" />
+        <mxPoint x="-90" y="160" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="IzqPxtT47RHliLdJ4qgM-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Feedback Collection&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="-300" y="190" width="100" height="65" as="geometry" />
     </mxCell>
   </root>
 </mxGraphModel>
