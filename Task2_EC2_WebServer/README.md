@@ -17,7 +17,7 @@ This simulates a typical DevOps workflow for deploying and monitoring applicatio
 
 ## How to Run
 
-1. Make sure you have **Ansible**, **Terraform**, and AWS CLI configured with proper credentials.
+1. Make sure you have **Ansible**, **Terraform**, and **AWS CLI** configured with proper credentials.
 2. Run the playbook:
    command: ansible-playbook run_terraform_.yml
 
@@ -39,4 +39,5 @@ After deployment, the following outputs are displayed:
    - Verify webpage availability via HTTP
    - Verify monitoring metrics/logs
 5. Monitoring setup configured (e.g., CloudWatch).
+
 
