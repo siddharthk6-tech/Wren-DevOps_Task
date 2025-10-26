@@ -1,0 +1,63 @@
+---
+- name: Run Terraform and show outputs
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  vars:
+    terraform_dir: "{{ playbook_dir }}/terraform"
+    downloads_dir: "{{ terraform_dir }}/downloads"
+    plan_file_path: "{{ terraform_dir }}/tfplan"
+
+  tasks:
+    - name: Initialize Terraform
+      community.general.terraform:
+        project_path: "{{ terraform_dir }}"
+        state: present
+        force_init: true
+
+    - name: Terraform plan
+      community.general.terraform:
+        project_path: "{{ terraform_dir }}"
+        plan_file: "{{ plan_file_path }}"
+        variables: {}
+        state: planned
+
+    - name: Terraform apply
+      community.general.terraform:
+        project_path: "{{ terraform_dir }}"
+        plan_file: "{{ plan_file_path }}"
+        state: present
+
+    - name: Inform user that resources are coming up
+      debug:
+        msg: |
+          Resources are being initialized and applications are starting. This may take a few minutes. Thank you for your patience!
+
+    - name: Wait for 200 seconds to allow EC2, web server, and CloudWatch agent to start
+      pause:
+        seconds: 200
+        prompt: "Waiting for resources to come up..."
+
+    - name: Get Terraform outputs in JSON
+      shell: terraform output -json
+      args:
+        chdir: "{{ terraform_dir }}"
+      register: outputs_json
+
+    - name: Parse public IP from Terraform JSON output
+      set_fact:
+        public_ip: "{{ (outputs_json.stdout | from_json).public_ip.value }}"
+
+    - name: Show EC2 Public IP
+      debug:
+        msg: "EC2 Public IP: {{ public_ip }}"
+
+    - name: Show index.html location
+      debug:
+        msg: "Index file downloaded at: {{ downloads_dir }}/index.html"
+
+    - name: Show direct test URL
+      debug:
+        msg: "Open in browser: http://{{ public_ip }}"
+
