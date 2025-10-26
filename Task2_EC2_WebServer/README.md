@@ -15,6 +15,12 @@ This simulates a typical DevOps workflow for deploying and monitoring applicatio
 - Ansible
 - Monitoring Tools – e.g., CloudWatch, basic health checks
 
+## How to Run
+
+1. Make sure you have **Ansible**, **Terraform**, and AWS CLI configured with proper credentials.
+2. Run the playbook:
+   command: ansible-playbook run_terraform_.yml
+
 ## Output
 After deployment, the following outputs are displayed:
 
@@ -24,7 +30,7 @@ After deployment, the following outputs are displayed:
 4. **Monitoring verification** – Basic health check or metrics confirming the web server is running.
 
 ## Steps Executed
-1. Terraform initializes and provisions the EC2 instance using the specified key pair (`sid_phrase_key`) in the `eu-west-1` region.
+1. Terraform initializes and provisions the EC2 instance using the specified key pair in the required region.
 2. Web server installed automatically via **user data**.
 3. Custom `index.html` deployed on the web server.
 4. Ansible runs a playbook to:
@@ -32,4 +38,5 @@ After deployment, the following outputs are displayed:
    - Show EC2 public IP
    - Verify webpage availability via HTTP
    - Verify monitoring metrics/logs
-5. Monitoring setup configured (e.g., CloudWatch or script-based health check).
+5. Monitoring setup configured (e.g., CloudWatch).
+
