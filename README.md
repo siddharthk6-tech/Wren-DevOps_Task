@@ -18,6 +18,7 @@ This repository contains solutions for three technical tasks related to DevOps a
   - EC2 public IP
   - http link to open webpage
   - Downloaded index.html verification through HTTP.
+- **Additional features** which have been added to improve resilience is CloudWatch monitoring with metrics, alarms, and a dashboard.
 
 ### **Task 3 – Kubernetes Pod Diagnostic Script**
 - Bash script that:
@@ -32,6 +33,7 @@ This repository contains solutions for three technical tasks related to DevOps a
 - **Draw.io**
 - **Ansible**
 - **Terraform**
+- **AWS(EC2,Cloudwatch,SNS)**
 - **Kubernetes**
 - **Bash scripting**
 
