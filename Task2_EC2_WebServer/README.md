@@ -18,7 +18,7 @@ This task demonstrates automated provisioning, deployment, and monitoring of a w
 
 1. Make sure you have **Ansible**, **Terraform**, and **AWS CLI** configured with proper credentials.
 2. Run the playbook:
-   command: ansible-playbook run_terraform.yml
+   command: **ansible-playbook run_terraform.yml**
 
 ## Output
 After deployment, the following outputs are displayed:
@@ -38,6 +38,7 @@ After deployment, the following outputs are displayed:
    - Verify webpage availability via HTTP
    - Verify monitoring metrics/logs
 5. Monitoring setup configured (CloudWatch).
+
 
 
 
