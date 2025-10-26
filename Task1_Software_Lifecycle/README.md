@@ -1,7 +1,7 @@
 # Task 1 – Software Lifecycle Workflow
 
 ## 📄 Description
-This task demonstrates a **Software Development Lifecycle (SDLC)** workflow covering key stages: **Ideate → Plan → Code → Build → Test → Deploy → Monitor**.
+This task demonstrates a **Software Development Lifecycle (SDLC)** workflow covering key stages: **Ideate - Plan - Code - Build - Test - Deploy - Monitor**.
 
 Two diagrams are provided:
 
@@ -25,3 +25,4 @@ The workflow illustrates typical DevOps practices including automated builds, qu
 6. **Integration and acceptance testing** performed.
 7. Deploy to **Pre-Production and Production**.
 8. **Monitoring and feedback** to improve future releases.
+
