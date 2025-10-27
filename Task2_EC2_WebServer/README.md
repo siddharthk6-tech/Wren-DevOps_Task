@@ -5,7 +5,7 @@ This task demonstrates automated provisioning, deployment, and monitoring of a w
 
 - **Terraform** provisions the infrastructure (EC2 instance) in AWS.
 - **User data** installs a web server and hosts a custom index page.
-- **Ansible** orchestrates Terraform execution and displays outputs.
+- **Ansible** orchestrates the Terraform execution and then displays outputs.
 - Optional- **Monitoring** setup was optional and not included in the task,  I have implemented Amazon CloudWatch monitoring with few  metrics, alarms, and a custom dashboard for enhanced observability, along with an SNS topic for real-time notifications.
 
 
@@ -17,7 +17,8 @@ This task demonstrates automated provisioning, deployment, and monitoring of a w
 ## How to Run
 
 1. Make sure you have **Ansible**, **Terraform**, and **AWS CLI** configured with proper credentials.
-2. Run the playbook:
+2. Just with a single command you can completely execute this task.
+3. Run the playbook:
    command: **ansible-playbook run_terraform.yml**
 
 ## Output
@@ -32,7 +33,7 @@ CW Dashboard- [Click here](https://github.com/siddharthk6-tech/Wren-DevOps_Task/
 Alarms- [Click here] (https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/main/Task2_EC2_WebServer/Outputs/Task2_CW_alarms.png)
 
 ## Steps Executed
-1. Ansible does the Terraform initialization, tf plan and runs tf apply by which terraform provisions the EC2 instance using the specified key pair in the required region.
+1. Ansible runs the Terraform init, tf plan and runs tf apply through which terraform provisions the EC2 instance using the specified key pair in the required region.
 2. Web server installed automatically via **user data**.
 3. Custom `index.html` deployed on the web server.
 4. Ansible runs a playbook to:
@@ -41,6 +42,7 @@ Alarms- [Click here] (https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/
    - Verify webpage availability via HTTP
    - Verify monitoring metrics/logs
 5. Monitoring setup configured (CloudWatch).
+
 
 
 
