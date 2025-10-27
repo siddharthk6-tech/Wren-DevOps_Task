@@ -13,9 +13,6 @@ The workflow illustrates typical DevOps practices including automated builds, qu
 ## Tools Used
 - [Draw.io](https://app.diagrams.net) – for creating editable workflow diagrams.
 
-## Output
-- `Wren_K-software lifecycle.drawio.xml' – load directly in Draw.io to visualize the workflow.
-
 ## Key Steps in Diagram
 1. Developer commits code to **Git/SVN**.
 2. **CI pipeline** triggers build and unit testing.
@@ -26,3 +23,6 @@ The workflow illustrates typical DevOps practices including automated builds, qu
 7. Deploy to **Pre-Production and Production**.
 8. **Monitoring and feedback** to improve future releases.
 
+## Output
+- `Wren_K-software lifecycle.drawio.xml' – load directly in Draw.io to visualize the workflow.
+-  Screenshot of the workflow has been attached in the [Outputs](https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/main/Task1_Software_Lifecycle/Outputs/SDLC-output-draw.io.png) folder of this task directory.
