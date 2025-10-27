@@ -8,7 +8,7 @@ Two diagrams are provided:
 - **Simple SDLC**: High-level overview of the lifecycle stages.
 - **Detailed SDLC**: Includes branching strategies, CI/CD pipeline, artifact management, pre-production and production release gates, and monitoring.
 
-The workflow illustrates typical DevOps practices including automated builds, quality checks, artifact storage, deployment pipelines, and feedback loops.
+The workflow basically illustrates typical DevOps practices including automated builds, quality checks, artifact storage, deployment pipelines and feedback loops.
 
 ## Tools Used
 - [Draw.io](https://app.diagrams.net) – for creating editable workflow diagrams.
@@ -26,3 +26,4 @@ The workflow illustrates typical DevOps practices including automated builds, qu
 ## Output
 - `Wren_K-software lifecycle.drawio.xml' – load directly in Draw.io to visualize the workflow.
 -  Screenshot of the workflow has been attached in the [Outputs](https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/main/Task1_Software_Lifecycle/Outputs/SDLC-output-draw.io.png) folder of this task directory.
+
