@@ -12,13 +12,13 @@ This repository contains solutions for three technical tasks.
 - Includes build, deploy, and CI/CD stages
 
 ### **Task 2 – EC2 Web Server Deployment**
-- Implemented using **Terraform** for provisioning and **Ansible** just orchestrates Terraform and shows outputs
+- Implemented this setup by using **Terraform** for provisioning and also used **Ansible** which orchestrates Terraform and shows outputs
 - Terraform creates an EC2 instance, installs a web server, and hosts a custom index page.
 - Output displays:
   - EC2 public IP
   - http link to open webpage
   - Downloaded index.html verification through HTTP.
-- **Additional optional features**-  Implemented **Amazon CloudWatch monitoring** with detailed metrics, alarms, and a custom dashboard for enhanced observability, along with an **SNS topic** for real-time notifications.
+- **Additional optional features added**-  Implemented **Amazon CloudWatch monitoring** with detailed metrics, alarms, and a custom dashboard for enhanced observability, along with an **SNS topic** for real-time notifications.
    
 ### **Task 3 – Kubernetes Pod Diagnostic Script**
 - Bash script that:
