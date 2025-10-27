@@ -29,7 +29,7 @@ After deployment, the following outputs are displayed:
 4. **Monitoring verification** – Basic health check or metrics confirming the web server is running.
 
 ## Steps Executed
-1. Ansible does the Terraform initialization, tf plan and runs tf apply by ehich terraform provisions the EC2 instance using the specified key pair in the required region.
+1. Ansible does the Terraform initialization, tf plan and runs tf apply by which terraform provisions the EC2 instance using the specified key pair in the required region.
 2. Web server installed automatically via **user data**.
 3. Custom `index.html` deployed on the web server.
 4. Ansible runs a playbook to:
@@ -38,6 +38,7 @@ After deployment, the following outputs are displayed:
    - Verify webpage availability via HTTP
    - Verify monitoring metrics/logs
 5. Monitoring setup configured (CloudWatch).
+
 
 
 
