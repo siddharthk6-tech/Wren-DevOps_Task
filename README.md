@@ -1,6 +1,6 @@
 # DevOps Assessment -
 
-This repository contains solutions for three technical tasks related to DevOps automation, infrastructure provisioning, and Kubernetes diagnostics.
+This repository contains solutions for three technical tasks.
 
 ---
 
