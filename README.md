@@ -29,7 +29,7 @@ This repository contains solutions for three technical tasks related to DevOps a
 
 ---
 
-## 🧠 Tools & Technologies Used
+## Tools & Technologies Used
 - **Draw.io**
 - **Ansible**
 - **Terraform**
@@ -40,6 +40,9 @@ This repository contains solutions for three technical tasks related to DevOps a
 ---
 
 ## How to Use
-Each folder includes its own README file explaining setup, usage, and outputs.
+Each folder includes its own README file explaining setup, usage.
+Each task includes outputs/screenshots to demonstrate functionality.
+
+
 
 ---
