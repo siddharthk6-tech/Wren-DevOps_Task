@@ -33,7 +33,7 @@ CW Dashboard- [Click here](https://github.com/siddharthk6-tech/Wren-DevOps_Task/
 Alarms- [Click here] (https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/main/Task2_EC2_WebServer/Outputs/Task2_CW_alarms.png)
 
 ## Steps Executed
-1. Ansible runs the Terraform init, tf plan and runs tf apply through which terraform provisions the EC2 instance using the specified key pair in the required region.
+1. Ansible runs the Terraform init, tf plan and then runs tf apply through which terraform provisions the EC2 instance using the specified key pair in the required region.
 2. Web server installed automatically via **user data**.
 3. Custom `index.html` deployed on the web server.
 4. Ansible runs a playbook to:
@@ -42,6 +42,7 @@ Alarms- [Click here] (https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/
    - Verify webpage availability via HTTP
    - Verify monitoring metrics/logs
 5. Monitoring setup configured (CloudWatch).
+
 
 
 
