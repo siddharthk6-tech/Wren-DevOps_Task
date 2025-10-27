@@ -21,12 +21,13 @@ This task demonstrates automated provisioning, deployment, and monitoring of a w
    command: **ansible-playbook run_terraform.yml**
 
 ## Output
-After deployment, the following outputs are displayed:
+After deployment, the following outputs are displayed. Click the links to view the outputs
 
-1. **EC2 Public IP** – Access your instance directly.
-2. **HTTP link** – Opens the custom index page in a browser.
-3. **Index.html verification** – Confirm the file is served correctly via HTTP.
-4. **Monitoring verification** – Basic health check or metrics confirming the web server is running.
+1. **Ansible+Terraform** [check here](https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/main/Task2_EC2_WebServer/Outputs/Task2_output-Playbook_ran_tf.png)
+2. **EC2 Public IP** – Access your instance directly. [check output here](https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/main/Task2_EC2_WebServer/Outputs/Task2_output-Playbook_ran_tf.png)
+3. **HTTP link** – Opens the custom index page in a browser. [Click here](https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/main/Task2_EC2_WebServer/Outputs/Task2_hosted-web-page.png)
+4. **Index.html verification** – Confirm the file is served correctly via HTTP. [File Location output](https://github.com/siddharthk6-tech/Wren-DevOps_Task/blob/main/Task2_EC2_WebServer/Outputs/Task2_index-file.png) 
+5. **Monitoring verification** – Basic health check or metrics confirming the web server is running.
 
 ## Steps Executed
 1. Ansible does the Terraform initialization, tf plan and runs tf apply by which terraform provisions the EC2 instance using the specified key pair in the required region.
@@ -38,6 +39,7 @@ After deployment, the following outputs are displayed:
    - Verify webpage availability via HTTP
    - Verify monitoring metrics/logs
 5. Monitoring setup configured (CloudWatch).
+
 
 
 
