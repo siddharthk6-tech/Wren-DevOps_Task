@@ -18,7 +18,7 @@ This repository contains solutions for three technical tasks related to DevOps a
   - EC2 public IP
   - http link to open webpage
   - Downloaded index.html verification through HTTP.
-- **Additional optional features**-  I have added CloudWatch monitoring with metrics, alarms, and a dashboard for observability.
+- **Additional optional features**-  Implemented **Amazon CloudWatch monitoring** with detailed metrics, alarms, and a custom dashboard for enhanced observability, along with an **SNS topic** for real-time notifications.
    
 ### **Task 3 – Kubernetes Pod Diagnostic Script**
 - Bash script that:
